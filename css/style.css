@@ -1,0 +1,117 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-nav {
+  padding: 40px;
+}
+
+.main-nav.logo {
+  width: 236.4px;
+  height: 60.79px;
+}
+
+.slogan-section p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+  font-size: 7vw;
+  text-align: center;
+  position: relative;
+  margin-top: 112px;
+  z-index: 4;
+  width: 100%;
+}
+
+.slogan-section .stroke{
+  position: absolute;
+}
+
+.stroke-blue {
+  bottom: 0;
+  left: 19%;
+  width: 60%;
+}
+
+.stroke-red {
+  top: 0;
+  width: 78%;
+}
+
+.stroke-green {
+  top: 0;
+  left: 57%;
+  width: 37%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    text-align: center;
+  }
+
+  .main-nav .logo {
+    width: 197px;
+  }
+
+  .slogan-section p {
+    font-size: 54px;
+  }
+
+  .stroke-red {
+    width: 358.06px;
+    top: 35%;
+    left: -6%;
+  }
+
+  .stroke-green {
+    top: 17%;
+    left: 18%;
+    width: 255px;
+    transform: rotate(-24deg);
+  }
+
+  .stroke-blue {
+    width: 319.65px;
+    left: 7%;
+    top: 69%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .stroke-red {
+    top: 119px;
+  }
+
+  .stroke-green {
+    top: 128px;
+    left: 62%;
+  }
+
+  .stroke-blue {
+    bottom: 419px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .stroke-blue {
+    bottom: 0;
+    left: 19%;
+    width: 60%;
+  }
+
+  .stroke-red {
+    top: 0;
+    width: 78%;
+  }
+
+  .stroke-green {
+    top: 0;
+    left: 57%;
+    width: 37%;
+  }
+}
